@@ -3,8 +3,8 @@ package properties;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.util.logging.Logger;
 
+import org.apache.log4j.Logger;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.Constructor;
 
@@ -14,7 +14,7 @@ public class YamlLoadPropertiesImpl implements LoadPropertiesIface {
 	YamlProperties yamlProperties;
 	
 
-	static Logger log = Logger.getLogger(YamlLoadPropertiesImpl.class.getName());
+	static Logger log = Logger.getLogger(YamlLoadPropertiesImpl.class);
 
 	public YamlLoadPropertiesImpl() throws FileNotFoundException {
 		log.info("No External File Location Provided Readig Default Config data from : "
