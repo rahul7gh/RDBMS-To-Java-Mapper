@@ -1,4 +1,4 @@
-package properties;
+package launcher;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
@@ -10,6 +10,10 @@ import org.apache.log4j.Logger;
 
 import databases.DatabaseIface;
 import databases.MySql;
+import properties.TextLoadProperties;
+import properties.TextProperties;
+import properties.YamlLoadPropertiesImpl;
+import properties.YamlProperties;
 import writers.ResultSetLoader;
 
 public class Test {
