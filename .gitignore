@@ -49,7 +49,7 @@ out/
 ##############################
 .settings/
 bin/
-target/
+target/classes/*
 tmp/
 .metadata
 .classpath
