@@ -49,6 +49,7 @@ out/
 ##############################
 .settings/
 bin/
+target/
 tmp/
 .metadata
 .classpath
@@ -82,4 +83,3 @@ nb-configuration.xml
 ## OS X
 ##############################
 .DS_Store
-
